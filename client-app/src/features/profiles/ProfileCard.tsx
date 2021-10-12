@@ -14,8 +14,7 @@ export default function ProfileCard({profile}: Props) {
             <Card.Content>
                 <Card.Header>{profile.displayName}</Card.Header>
                 <Card.Description>Bio goes here</Card.Description>
-            </Card.Content>
-            <Card.Content extra>
+            </Card.Content>            <Card.Content extra>
                 <Icon name='user' />
                 20 follower
             </Card.Content>
